@@ -1,0 +1,6 @@
+framework module WCVideoEditor {
+  umbrella header "WCVideoEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WCVideoEditor (0.1.0)
+
+DEPENDENCIES:
+  - WCVideoEditor (from `../`)
+
+EXTERNAL SOURCES:
+  WCVideoEditor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WCVideoEditor: f5260d4033e36225f0d04eb449f2fe6f59558fa1
+
+PODFILE CHECKSUM: ae31941a097e980f481e111c8d45846a52038da4
+
+COCOAPODS: 1.12.1

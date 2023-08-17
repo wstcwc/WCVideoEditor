@@ -1,0 +1,33 @@
+{
+  "name": "WCVideoEditor",
+  "version": "0.1.0",
+  "summary": "简易的视频编辑库.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wstcwc/WCVideoEditor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wc": "751601146@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:wstcwc/WCVideoEditor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "source_files": "WCVideoEditor/Classes/**/*",
+  "resource_bundles": {
+    "WCVideoEditor": [
+      "WCVideoEditor/Assets/*.xcassets"
+    ]
+  },
+  "swift_version": "5.0"
+}
