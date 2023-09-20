@@ -7,35 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B12FDE63AAE74BC23ACF5016CD1373 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296B2A37F6D39689BD3BAEAA7D5F673D /* Asset.xcassets */; };
-		097E53FA0FBA051FD26E24DF16107C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1B329EBBDBEF7A2E589E22B0F9D5295F /* WCVideoEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ECEBC09C15ECFBDA47DC83752B666E6 /* WCVideoEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23EDCCD1C0B36B14445957AAB53C0A10 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E1F460E4B329D8CB6E124A49B2F1CE /* Source.swift */; };
+		0986F4FA5D7C001C56FC7D0D04418105 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78143E6851D8AA019A5449F8C12AD4F /* Asset.xcassets */; };
+		0FBCC2F0531878E1C6BC1BA956B3755B /* WCVideoEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5BAB23840160FB629C00E2D682DF74 /* WCVideoEditor-dummy.m */; };
+		111E4225A853D4C7934196CC3E32313F /* RenderComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1523E34FAA95DFF67D40C3368D23E /* RenderComposition.swift */; };
 		3119D1FCAED7260DEB40C9A16C629695 /* Pods-WCVideoEditor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D860F17A959B1CBAB23E90992CBD4ED0 /* Pods-WCVideoEditor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55ED1A241C73B03E5A3D90F0039BAF82 /* AssetVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A762A07E0F943F3FB7F9D27201C29E8 /* AssetVideoSource.swift */; };
 		5A98220AA48B1A2DF632F1D4CE46581B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		621EDCF02D36066B3B89333985734B97 /* VideoSourceTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7913C3C8EDB51C63F95D82EBA9CEE3 /* VideoSourceTrack.swift */; };
+		628B49CDE2B54EE8492EE820C9392DB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6298BFB5B26ADBFC25EED53488684518 /* SourceTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237F775FD6F51B928E1194C30E193DF9 /* SourceTrack.swift */; };
+		69AA786D5161640D7B4D2882C03DA1D0 /* WCVideoEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE1ACAD1DDF9FA7B8EE777D3BA8C6F6 /* WCVideoEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EE4D062047827A234ED8665CE462495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B6A3EC2A4020142AA6DB0938D2A87E97 /* Pods-WCVideoEditor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF79B02694EEA6AB0BC36EFCC5242D81 /* Pods-WCVideoEditor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7667EEDF813139A3083BF0BEFF4FDB9 /* Pods-WCVideoEditor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A11E758A628D8923D96BE6476E7F9 /* Pods-WCVideoEditor_Example-dummy.m */; };
+		BC9796DC945FA9DBFFB990F05D963B16 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C02281CA654435C3B2D5FA8EC66531 /* Source.swift */; };
 		ED1F73A6BA912C6BCFFDCC7CDF4A568D /* Pods-WCVideoEditor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C71905D49D7136807B109307DC4427DC /* Pods-WCVideoEditor_Tests-dummy.m */; };
-		EE3AD011E48702191192BEC65AF207A5 /* WCVideoEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B263C24FDF5B9A397B8999D5F5C41 /* WCVideoEditor-dummy.m */; };
+		FEFDD7E034F950199442964CD04F6C88 /* VideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939140814F979815A9E3C1D5B06643F9 /* VideoEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4CE313CCC42D0B048834C1FBE13CEC35 /* PBXContainerItemProxy */ = {
+		2DEEC2F82A473030BE55D30C3A937560 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E181AB6BAF4D59A0AEAF4BF166516F28;
 			remoteInfo = "Pods-WCVideoEditor_Example";
 		};
-		A30E1700B7908170C495D231D5FAA4D3 /* PBXContainerItemProxy */ = {
+		BE91890653190AAC91CB3C7D725AA0FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C61E5A970A0C89239487480894E23DFA;
 			remoteInfo = "WCVideoEditor-WCVideoEditor";
 		};
-		E062EF684430374FD4AF8C3F3BA4DEB6 /* PBXContainerItemProxy */ = {
+		FCFC6A4A6EE358CD54E2C1A4C6B7B61F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,40 +52,45 @@
 /* Begin PBXFileReference section */
 		0B068A9FECF82531E13B9B33FBF0A34A /* Pods-WCVideoEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCVideoEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		104CAC78E5F4A4792CFF116F126CD55E /* Pods-WCVideoEditor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WCVideoEditor_Tests.modulemap"; sourceTree = "<group>"; };
+		16C02281CA654435C3B2D5FA8EC66531 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		1B6A11E758A628D8923D96BE6476E7F9 /* Pods-WCVideoEditor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCVideoEditor_Example-dummy.m"; sourceTree = "<group>"; };
+		237F775FD6F51B928E1194C30E193DF9 /* SourceTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SourceTrack.swift; sourceTree = "<group>"; };
 		26B366519AE261842350EDA3CC69DBF0 /* Pods-WCVideoEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCVideoEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26E26AD536832FCAB7E3E72B4F966DCE /* Pods-WCVideoEditor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCVideoEditor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		296B2A37F6D39689BD3BAEAA7D5F673D /* Asset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Asset.xcassets; path = WCVideoEditor/Assets/Asset.xcassets; sourceTree = "<group>"; };
-		2A8B9015A468C2A7B245F6396BA35A5F /* WCVideoEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCVideoEditor-prefix.pch"; sourceTree = "<group>"; };
-		2ECEBC09C15ECFBDA47DC83752B666E6 /* WCVideoEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCVideoEditor-umbrella.h"; sourceTree = "<group>"; };
-		3230F4D828BFDB39D0A32D95CAE28148 /* WCVideoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCVideoEditor.release.xcconfig; sourceTree = "<group>"; };
 		3777A40E26254D923CE58540CF0B0878 /* Pods-WCVideoEditor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WCVideoEditor_Example-resources.sh"; sourceTree = "<group>"; };
+		3A762A07E0F943F3FB7F9D27201C29E8 /* AssetVideoSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssetVideoSource.swift; sourceTree = "<group>"; };
 		403E877580F4FFD32FB8F234C42219FB /* Pods-WCVideoEditor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WCVideoEditor_Tests"; path = Pods_WCVideoEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47E1F460E4B329D8CB6E124A49B2F1CE /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = WCVideoEditor/Classes/Source/Source.swift; sourceTree = "<group>"; };
+		4C1CCCC6A8C3C107364D0B653B830FDE /* WCVideoEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCVideoEditor-prefix.pch"; sourceTree = "<group>"; };
 		5B2AA1D649976951A8E389A1FC1471D7 /* Pods-WCVideoEditor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WCVideoEditor_Example.modulemap"; sourceTree = "<group>"; };
+		5CE1ACAD1DDF9FA7B8EE777D3BA8C6F6 /* WCVideoEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCVideoEditor-umbrella.h"; sourceTree = "<group>"; };
+		5F7913C3C8EDB51C63F95D82EBA9CEE3 /* VideoSourceTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoSourceTrack.swift; sourceTree = "<group>"; };
+		6655DE000F8848C94312DB7DF6E04400 /* WCVideoEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCVideoEditor-Info.plist"; sourceTree = "<group>"; };
+		6F563745FBD2F79A29F9DADA0BC0D473 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6FFBD2CDBD4E04774E58D46DC52FE285 /* Pods-WCVideoEditor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WCVideoEditor_Example"; path = Pods_WCVideoEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7023550419E3A4B16B348FAF735F9D71 /* WCVideoEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCVideoEditor.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E7B9BB5023425B2AF5A87F60B24329 /* Pods-WCVideoEditor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCVideoEditor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		76B6C9866DE5EC1BB3A530C394BCD770 /* WCVideoEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WCVideoEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7B25CC7B6F503B9F9F32A113D10233D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7B856496BDECC97A3F0546511A670A26 /* Pods-WCVideoEditor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCVideoEditor_Tests-Info.plist"; sourceTree = "<group>"; };
 		808DA5AE4F239E484A8A09003A3BD1B3 /* Pods-WCVideoEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCVideoEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		866D0CA9390790BFD97884F1E20563BD /* ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist"; sourceTree = "<group>"; };
+		939140814F979815A9E3C1D5B06643F9 /* VideoEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoEditor.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E40C8DFFF628ADA016B92EDA0AE6DBE /* WCVideoEditor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCVideoEditor; path = WCVideoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E8B263C24FDF5B9A397B8999D5F5C41 /* WCVideoEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCVideoEditor-dummy.m"; sourceTree = "<group>"; };
-		9FA8157CCB3CA527E0C94BF5F4E3E39B /* WCVideoEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCVideoEditor-Info.plist"; sourceTree = "<group>"; };
-		AC863A61615EB4A3BC741CC9FA0BCF51 /* WCVideoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCVideoEditor.debug.xcconfig; sourceTree = "<group>"; };
+		AA5BAB23840160FB629C00E2D682DF74 /* WCVideoEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCVideoEditor-dummy.m"; sourceTree = "<group>"; };
+		AFF42557CD4FC6177B284C34D1775DA9 /* WCVideoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCVideoEditor.release.xcconfig; sourceTree = "<group>"; };
+		B0B17301428F64B0C6BA25D5AFD3561B /* WCVideoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WCVideoEditor.debug.xcconfig; sourceTree = "<group>"; };
 		BBB5B708AB9A42DDD811F899491477D3 /* Pods-WCVideoEditor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCVideoEditor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1CFC69BC01AD872260DB94C0C3318D1 /* WCVideoEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WCVideoEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C71905D49D7136807B109307DC4427DC /* Pods-WCVideoEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCVideoEditor_Tests-dummy.m"; sourceTree = "<group>"; };
 		CAACEBFEAACD78B6B46CD62D022DD87D /* Pods-WCVideoEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCVideoEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CF79B02694EEA6AB0BC36EFCC5242D81 /* Pods-WCVideoEditor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCVideoEditor_Example-umbrella.h"; sourceTree = "<group>"; };
 		D642DC424DCDD097252F73910A3026E6 /* WCVideoEditor-WCVideoEditor */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "WCVideoEditor-WCVideoEditor"; path = WCVideoEditor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D860F17A959B1CBAB23E90992CBD4ED0 /* Pods-WCVideoEditor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCVideoEditor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4E1523E34FAA95DFF67D40C3368D23E /* RenderComposition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RenderComposition.swift; sourceTree = "<group>"; };
 		E71DD7ACD83A17B5DBCB275AB9692DBC /* Pods-WCVideoEditor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCVideoEditor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E78143E6851D8AA019A5449F8C12AD4F /* Asset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Asset.xcassets; path = WCVideoEditor/Assets/Asset.xcassets; sourceTree = "<group>"; };
 		EC392AB0FCCAC641B83E36B6C3014020 /* Pods-WCVideoEditor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCVideoEditor_Example-Info.plist"; sourceTree = "<group>"; };
-		F97941317441188F1E0A4023AFEB25CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EEEE7D22D1F4541F13C73515090253C9 /* ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist"; sourceTree = "<group>"; };
+		F17E302D28B5429475CC58204B641D4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5EF4591CBE229B5B110BCEC41A6C16C /* WCVideoEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WCVideoEditor.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,18 +102,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A22AD91C286E679454BCDB0A5A5FBD94 /* Frameworks */ = {
+		860B1CFCCF9449DD74380EF583DC32AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628B49CDE2B54EE8492EE820C9392DB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F47DFFA6E230DA2A11193F2C759785EB /* Frameworks */ = {
+		BF309923AF295A1A0CA494C02DD087AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097E53FA0FBA051FD26E24DF16107C00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +128,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37F434695ADCCCF0DA456F1CB5D5C432 /* Development Pods */ = {
+		06143643B19A855A3B3AFEC96715A1C7 /* Editor */ = {
 			isa = PBXGroup;
 			children = (
-				7868C46CD06A79D42C77C4BD02995D87 /* WCVideoEditor */,
+				E4E1523E34FAA95DFF67D40C3368D23E /* RenderComposition.swift */,
+				237F775FD6F51B928E1194C30E193DF9 /* SourceTrack.swift */,
+				939140814F979815A9E3C1D5B06643F9 /* VideoEditor.swift */,
+				5F7913C3C8EDB51C63F95D82EBA9CEE3 /* VideoSourceTrack.swift */,
+			);
+			name = Editor;
+			path = WCVideoEditor/Classes/Editor;
+			sourceTree = "<group>";
+		};
+		22047EBEEAC72ABB71683C4752EF196F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3163BFFB621D7161F6FCD91EB84D7D10 /* WCVideoEditor */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		25B54888596EA5BCC46EA30FFB59554B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE7D22D1F4541F13C73515090253C9 /* ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist */,
+				F5EF4591CBE229B5B110BCEC41A6C16C /* WCVideoEditor.modulemap */,
+				AA5BAB23840160FB629C00E2D682DF74 /* WCVideoEditor-dummy.m */,
+				6655DE000F8848C94312DB7DF6E04400 /* WCVideoEditor-Info.plist */,
+				4C1CCCC6A8C3C107364D0B653B830FDE /* WCVideoEditor-prefix.pch */,
+				5CE1ACAD1DDF9FA7B8EE777D3BA8C6F6 /* WCVideoEditor-umbrella.h */,
+				B0B17301428F64B0C6BA25D5AFD3561B /* WCVideoEditor.debug.xcconfig */,
+				AFF42557CD4FC6177B284C34D1775DA9 /* WCVideoEditor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WCVideoEditor";
+			sourceTree = "<group>";
+		};
+		2D4EFB8B8A862E35CC3F7C2212F66579 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3A762A07E0F943F3FB7F9D27201C29E8 /* AssetVideoSource.swift */,
+				16C02281CA654435C3B2D5FA8EC66531 /* Source.swift */,
+			);
+			name = Source;
+			path = WCVideoEditor/Classes/Source;
+			sourceTree = "<group>";
+		};
+		3163BFFB621D7161F6FCD91EB84D7D10 /* WCVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E78143E6851D8AA019A5449F8C12AD4F /* Asset.xcassets */,
+				06143643B19A855A3B3AFEC96715A1C7 /* Editor */,
+				E766B0D7BE23ABE28EA20F907958EA1D /* Pod */,
+				2D4EFB8B8A862E35CC3F7C2212F66579 /* Source */,
+				25B54888596EA5BCC46EA30FFB59554B /* Support Files */,
+			);
+			name = WCVideoEditor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -143,18 +204,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7868C46CD06A79D42C77C4BD02995D87 /* WCVideoEditor */ = {
-			isa = PBXGroup;
-			children = (
-				296B2A37F6D39689BD3BAEAA7D5F673D /* Asset.xcassets */,
-				47E1F460E4B329D8CB6E124A49B2F1CE /* Source.swift */,
-				CA1B0865CDF6778F9FD4E1062DD356A8 /* Pod */,
-				B5715724B399C5AFC67C8F9493CD03A5 /* Support Files */,
-			);
-			name = WCVideoEditor;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		9F5288D6E832D82CA512DCB096E1DDA2 /* Pods-WCVideoEditor_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,22 +219,6 @@
 			);
 			name = "Pods-WCVideoEditor_Example";
 			path = "Target Support Files/Pods-WCVideoEditor_Example";
-			sourceTree = "<group>";
-		};
-		B5715724B399C5AFC67C8F9493CD03A5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				866D0CA9390790BFD97884F1E20563BD /* ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist */,
-				7023550419E3A4B16B348FAF735F9D71 /* WCVideoEditor.modulemap */,
-				9E8B263C24FDF5B9A397B8999D5F5C41 /* WCVideoEditor-dummy.m */,
-				9FA8157CCB3CA527E0C94BF5F4E3E39B /* WCVideoEditor-Info.plist */,
-				2A8B9015A468C2A7B245F6396BA35A5F /* WCVideoEditor-prefix.pch */,
-				2ECEBC09C15ECFBDA47DC83752B666E6 /* WCVideoEditor-umbrella.h */,
-				AC863A61615EB4A3BC741CC9FA0BCF51 /* WCVideoEditor.debug.xcconfig */,
-				3230F4D828BFDB39D0A32D95CAE28148 /* WCVideoEditor.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WCVideoEditor";
 			sourceTree = "<group>";
 		};
 		BC937A67CAE03124530746F323921B06 /* Pods-WCVideoEditor_Tests */ = {
@@ -204,16 +237,6 @@
 			path = "Target Support Files/Pods-WCVideoEditor_Tests";
 			sourceTree = "<group>";
 		};
-		CA1B0865CDF6778F9FD4E1062DD356A8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F97941317441188F1E0A4023AFEB25CF /* LICENSE */,
-				7B25CC7B6F503B9F9F32A113D10233D2 /* README.md */,
-				76B6C9866DE5EC1BB3A530C394BCD770 /* WCVideoEditor.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CE38231A839630C17DC2D24A6935172E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,7 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				37F434695ADCCCF0DA456F1CB5D5C432 /* Development Pods */,
+				22047EBEEAC72ABB71683C4752EF196F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				CE38231A839630C17DC2D24A6935172E /* Products */,
 				67EEA3C84A285CAEE3B785D30CBE7FA7 /* Targets Support Files */,
@@ -244,6 +267,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E766B0D7BE23ABE28EA20F907958EA1D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F17E302D28B5429475CC58204B641D4F /* LICENSE */,
+				6F563745FBD2F79A29F9DADA0BC0D473 /* README.md */,
+				C1CFC69BC01AD872260DB94C0C3318D1 /* WCVideoEditor.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -255,14 +288,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BDF5A40031309C69D19731FE1DC55B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B329EBBDBEF7A2E589E22B0F9D5295F /* WCVideoEditor-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EA8ADE311B2B3F8847D70DDDDAB16440 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,22 +296,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED6E28679A1B12D8A5B7593526F430C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AA786D5161640D7B4D2882C03DA1D0 /* WCVideoEditor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4AC91206262C6266946BF686ADA18F68 /* WCVideoEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 360925E39D0A2C74190A50E7A6B00A83 /* Build configuration list for PBXNativeTarget "WCVideoEditor" */;
+			buildConfigurationList = 32DD66F7E300475051B409B4031CD1D3 /* Build configuration list for PBXNativeTarget "WCVideoEditor" */;
 			buildPhases = (
-				3BDF5A40031309C69D19731FE1DC55B6 /* Headers */,
-				6BC62FC9AC7C96645E0E6961D885CB7E /* Sources */,
-				F47DFFA6E230DA2A11193F2C759785EB /* Frameworks */,
-				04BC300D3D6071BAE8B8E8C7AD8A3D1D /* Resources */,
+				ED6E28679A1B12D8A5B7593526F430C1 /* Headers */,
+				0390B20BFF1EBD6377169057CB484863 /* Sources */,
+				860B1CFCCF9449DD74380EF583DC32AD /* Frameworks */,
+				C68677FBA7A94FB26A84BF6AE073C5C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				38E099203D232E6E525FBE7B6D1A9A7D /* PBXTargetDependency */,
+				17944318766C2433CAD666E737D03208 /* PBXTargetDependency */,
 			);
 			name = WCVideoEditor;
 			productName = WCVideoEditor;
@@ -305,7 +338,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				08D483665C1AE84C12A1513B314AAA49 /* PBXTargetDependency */,
+				58901AC3DB421CC0B7FCB0F1FAD74D43 /* PBXTargetDependency */,
 			);
 			name = "Pods-WCVideoEditor_Tests";
 			productName = Pods_WCVideoEditor_Tests;
@@ -314,11 +347,11 @@
 		};
 		C61E5A970A0C89239487480894E23DFA /* WCVideoEditor-WCVideoEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DF47BFE5BDCE733AF8075CF08657400 /* Build configuration list for PBXNativeTarget "WCVideoEditor-WCVideoEditor" */;
+			buildConfigurationList = 38C0BBE138F5462E18016553816A2912 /* Build configuration list for PBXNativeTarget "WCVideoEditor-WCVideoEditor" */;
 			buildPhases = (
-				099926D564B1CF35E111AA07B5BF1EB0 /* Sources */,
-				A22AD91C286E679454BCDB0A5A5FBD94 /* Frameworks */,
-				0D8F4A95BB3F05A980B0FC26FF3B08BD /* Resources */,
+				8BDC7BCCE304FCDD7459140CD6E29F4C /* Sources */,
+				BF309923AF295A1A0CA494C02DD087AC /* Frameworks */,
+				84278B677AF219F8C69E3017FD52F68B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,7 +374,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0B58CEF93F8F0AA266AB946A4B10174A /* PBXTargetDependency */,
+				5565CDDCBB318454C921F33B5F88DC0A /* PBXTargetDependency */,
 			);
 			name = "Pods-WCVideoEditor_Example";
 			productName = Pods_WCVideoEditor_Example;
@@ -379,22 +412,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04BC300D3D6071BAE8B8E8C7AD8A3D1D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D8F4A95BB3F05A980B0FC26FF3B08BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03B12FDE63AAE74BC23ACF5016CD1373 /* Asset.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		725BFBFC7731230C4B08A676B9AD0023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84278B677AF219F8C69E3017FD52F68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0986F4FA5D7C001C56FC7D0D04418105 /* Asset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68677FBA7A94FB26A84BF6AE073C5C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,19 +444,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		099926D564B1CF35E111AA07B5BF1EB0 /* Sources */ = {
+		0390B20BFF1EBD6377169057CB484863 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55ED1A241C73B03E5A3D90F0039BAF82 /* AssetVideoSource.swift in Sources */,
+				111E4225A853D4C7934196CC3E32313F /* RenderComposition.swift in Sources */,
+				BC9796DC945FA9DBFFB990F05D963B16 /* Source.swift in Sources */,
+				6298BFB5B26ADBFC25EED53488684518 /* SourceTrack.swift in Sources */,
+				FEFDD7E034F950199442964CD04F6C88 /* VideoEditor.swift in Sources */,
+				621EDCF02D36066B3B89333985734B97 /* VideoSourceTrack.swift in Sources */,
+				0FBCC2F0531878E1C6BC1BA956B3755B /* WCVideoEditor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BC62FC9AC7C96645E0E6961D885CB7E /* Sources */ = {
+		8BDC7BCCE304FCDD7459140CD6E29F4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EDCCD1C0B36B14445957AAB53C0A10 /* Source.swift in Sources */,
-				EE3AD011E48702191192BEC65AF207A5 /* WCVideoEditor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,23 +484,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08D483665C1AE84C12A1513B314AAA49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WCVideoEditor_Example";
-			target = E181AB6BAF4D59A0AEAF4BF166516F28 /* Pods-WCVideoEditor_Example */;
-			targetProxy = 4CE313CCC42D0B048834C1FBE13CEC35 /* PBXContainerItemProxy */;
-		};
-		0B58CEF93F8F0AA266AB946A4B10174A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WCVideoEditor;
-			target = 4AC91206262C6266946BF686ADA18F68 /* WCVideoEditor */;
-			targetProxy = E062EF684430374FD4AF8C3F3BA4DEB6 /* PBXContainerItemProxy */;
-		};
-		38E099203D232E6E525FBE7B6D1A9A7D /* PBXTargetDependency */ = {
+		17944318766C2433CAD666E737D03208 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "WCVideoEditor-WCVideoEditor";
 			target = C61E5A970A0C89239487480894E23DFA /* WCVideoEditor-WCVideoEditor */;
-			targetProxy = A30E1700B7908170C495D231D5FAA4D3 /* PBXContainerItemProxy */;
+			targetProxy = BE91890653190AAC91CB3C7D725AA0FA /* PBXContainerItemProxy */;
+		};
+		5565CDDCBB318454C921F33B5F88DC0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WCVideoEditor;
+			target = 4AC91206262C6266946BF686ADA18F68 /* WCVideoEditor */;
+			targetProxy = FCFC6A4A6EE358CD54E2C1A4C6B7B61F /* PBXContainerItemProxy */;
+		};
+		58901AC3DB421CC0B7FCB0F1FAD74D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WCVideoEditor_Example";
+			target = E181AB6BAF4D59A0AEAF4BF166516F28 /* Pods-WCVideoEditor_Example */;
+			targetProxy = 2DEEC2F82A473030BE55D30C3A937560 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,9 +538,9 @@
 			};
 			name = Debug;
 		};
-		2877CDAFB87100E805D2465045BF4237 /* Release */ = {
+		2F1F0985F6FF96712D866B67A1B0DB0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3230F4D828BFDB39D0A32D95CAE28148 /* WCVideoEditor.release.xcconfig */;
+			baseConfigurationReference = AFF42557CD4FC6177B284C34D1775DA9 /* WCVideoEditor.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,6 +639,23 @@
 			};
 			name = Release;
 		};
+		7A6B577E856AFCA5DA990D9CA25AD056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B17301428F64B0C6BA25D5AFD3561B /* WCVideoEditor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WCVideoEditor";
+				IBSC_MODULE = WCVideoEditor;
+				INFOPLIST_FILE = "Target Support Files/WCVideoEditor/ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = WCVideoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -660,72 +715,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8CA8650F677F8AF4FD69F3ACB3E98401 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC863A61615EB4A3BC741CC9FA0BCF51 /* WCVideoEditor.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WCVideoEditor";
-				IBSC_MODULE = WCVideoEditor;
-				INFOPLIST_FILE = "Target Support Files/WCVideoEditor/ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = WCVideoEditor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A084D81EF511B0E6022775DF8C7D6D84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC863A61615EB4A3BC741CC9FA0BCF51 /* WCVideoEditor.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WCVideoEditor/WCVideoEditor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WCVideoEditor/WCVideoEditor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WCVideoEditor/WCVideoEditor.modulemap";
-				PRODUCT_MODULE_NAME = WCVideoEditor;
-				PRODUCT_NAME = WCVideoEditor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C5C6F68ABAD2497C84125E90D74E6447 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3230F4D828BFDB39D0A32D95CAE28148 /* WCVideoEditor.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WCVideoEditor";
-				IBSC_MODULE = WCVideoEditor;
-				INFOPLIST_FILE = "Target Support Files/WCVideoEditor/ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = WCVideoEditor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -795,6 +784,55 @@
 			};
 			name = Debug;
 		};
+		E55E54310CC0D4F353E85C3EB6825071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B17301428F64B0C6BA25D5AFD3561B /* WCVideoEditor.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WCVideoEditor/WCVideoEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WCVideoEditor/WCVideoEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WCVideoEditor/WCVideoEditor.modulemap";
+				PRODUCT_MODULE_NAME = WCVideoEditor;
+				PRODUCT_NAME = WCVideoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1E99FB8A971D7413A2784F62F72A886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF42557CD4FC6177B284C34D1775DA9 /* WCVideoEditor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WCVideoEditor";
+				IBSC_MODULE = WCVideoEditor;
+				INFOPLIST_FILE = "Target Support Files/WCVideoEditor/ResourceBundle-WCVideoEditor-WCVideoEditor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = WCVideoEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		F7375C85B06B8BD91828D1847535F49B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26B366519AE261842350EDA3CC69DBF0 /* Pods-WCVideoEditor_Example.debug.xcconfig */;
@@ -840,11 +878,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		360925E39D0A2C74190A50E7A6B00A83 /* Build configuration list for PBXNativeTarget "WCVideoEditor" */ = {
+		32DD66F7E300475051B409B4031CD1D3 /* Build configuration list for PBXNativeTarget "WCVideoEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A084D81EF511B0E6022775DF8C7D6D84 /* Debug */,
-				2877CDAFB87100E805D2465045BF4237 /* Release */,
+				E55E54310CC0D4F353E85C3EB6825071 /* Debug */,
+				2F1F0985F6FF96712D866B67A1B0DB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C0BBE138F5462E18016553816A2912 /* Build configuration list for PBXNativeTarget "WCVideoEditor-WCVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6B577E856AFCA5DA990D9CA25AD056 /* Debug */,
+				F1E99FB8A971D7413A2784F62F72A886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -854,15 +901,6 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9DF47BFE5BDCE733AF8075CF08657400 /* Build configuration list for PBXNativeTarget "WCVideoEditor-WCVideoEditor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CA8650F677F8AF4FD69F3ACB3E98401 /* Debug */,
-				C5C6F68ABAD2497C84125E90D74E6447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

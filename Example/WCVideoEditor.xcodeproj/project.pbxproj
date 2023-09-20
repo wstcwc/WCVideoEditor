@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225D82962A95DC1900F52A45 /* video(10).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 225D82902A95DC1800F52A45 /* video(10).mp4 */; };
+		225D82972A95DC1900F52A45 /* video(8).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 225D82912A95DC1800F52A45 /* video(8).mp4 */; };
+		225D82982A95DC1900F52A45 /* video(9).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 225D82922A95DC1800F52A45 /* video(9).mp4 */; };
+		225D82992A95DC1900F52A45 /* video(11).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 225D82932A95DC1800F52A45 /* video(11).mp4 */; };
+		225D829A2A95DC1900F52A45 /* video(5).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 225D82942A95DC1900F52A45 /* video(5).mp4 */; };
+		225D829B2A95DC1900F52A45 /* video(6).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 225D82952A95DC1900F52A45 /* video(6).mp4 */; };
 		4FD20D633907393DC0AA3FD8 /* Pods_WCVideoEditor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EC3FFC8D7C960B0FCD1BF3 /* Pods_WCVideoEditor_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +34,12 @@
 
 /* Begin PBXFileReference section */
 		0CE9A2267AA46FFC41A3A2BE /* Pods-WCVideoEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCVideoEditor_Tests.release.xcconfig"; path = "Target Support Files/Pods-WCVideoEditor_Tests/Pods-WCVideoEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		225D82902A95DC1800F52A45 /* video(10).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video(10).mp4"; sourceTree = "<group>"; };
+		225D82912A95DC1800F52A45 /* video(8).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video(8).mp4"; sourceTree = "<group>"; };
+		225D82922A95DC1800F52A45 /* video(9).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video(9).mp4"; sourceTree = "<group>"; };
+		225D82932A95DC1800F52A45 /* video(11).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video(11).mp4"; sourceTree = "<group>"; };
+		225D82942A95DC1900F52A45 /* video(5).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video(5).mp4"; sourceTree = "<group>"; };
+		225D82952A95DC1900F52A45 /* video(6).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video(6).mp4"; sourceTree = "<group>"; };
 		231138C7BA2275030E50D5EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		25EC3FFC8D7C960B0FCD1BF3 /* Pods_WCVideoEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCVideoEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4116996E5236A2519A225480 /* WCVideoEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WCVideoEditor.podspec; path = ../WCVideoEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -67,6 +79,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225D828F2A95DBD400F52A45 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				225D82942A95DC1900F52A45 /* video(5).mp4 */,
+				225D82952A95DC1900F52A45 /* video(6).mp4 */,
+				225D82912A95DC1800F52A45 /* video(8).mp4 */,
+				225D82922A95DC1800F52A45 /* video(9).mp4 */,
+				225D82902A95DC1800F52A45 /* video(10).mp4 */,
+				225D82932A95DC1800F52A45 /* video(11).mp4 */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +116,7 @@
 		607FACD21AFB9204008FA782 /* Example for WCVideoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				225D828F2A95DBD400F52A45 /* Video */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -245,8 +271,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225D82992A95DC1900F52A45 /* video(11).mp4 in Resources */,
+				225D829B2A95DC1900F52A45 /* video(6).mp4 in Resources */,
+				225D82982A95DC1900F52A45 /* video(9).mp4 in Resources */,
+				225D82962A95DC1900F52A45 /* video(10).mp4 in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				225D829A2A95DC1900F52A45 /* video(5).mp4 in Resources */,
+				225D82972A95DC1900F52A45 /* video(8).mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
